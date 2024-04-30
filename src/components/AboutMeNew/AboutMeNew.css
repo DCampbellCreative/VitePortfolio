@@ -1,0 +1,176 @@
+.amn-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 115px;
+  margin-bottom: 50px;
+}
+
+.amn-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.button-row {
+  display: flex;
+  gap: 10px;
+}
+
+.amn-card-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 26%;
+  gap: 20px;
+}
+
+.amn-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--black);
+  border-radius: 15px;
+  text-align: left;
+  width: 32%;
+  min-width: 300px;
+}
+
+.amn-portrait {
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+.anm-button {
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--teal);
+  font-family: var(--copy);
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 125px;
+  height: 30px;
+  background-color: var(--opaque);
+  color: var(--teal);
+  transition: 0.6s;
+}
+
+.amn-button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.amn-margin {
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.amn-heading-1 {
+  margin: 0px 0px 20px 0px;
+  text-align: left;
+  font-family: var(--heading);
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.amn-heading {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: var(--heading);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.amn-body {
+  margin: 0px 20px;
+  display: block;
+  font-family: var(--copy);
+  text-align: left;
+  font-size: 1.1rem;
+  color: var(--white);
+  max-width: 325px;
+  margin-bottom: 40px;
+}
+
+.justify {
+  margin: 0;
+}
+
+.amn-image-container {
+  display: flex;
+  gap: 15px;
+  margin-top: auto;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.amn-image {
+  width: 36px;
+}
+
+.amn-image-bg {
+  display: flex;
+  place-content: center;
+  border-radius: 100%;
+  background: whitesmoke;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .amn-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+    margin-bottom: 50px;
+    height: auto;
+  }
+
+  .amn-card-1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .amn-card {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+  }
+
+  .amn-body {
+    max-width: 300px;
+    font-size: medium;
+  }
+
+  .justify {
+    text-align: left;
+    font-size: 1.2rem;
+    max-width: none;
+    width: 100%;
+  }
+
+  .amn-portrait {
+    width: 100%;
+    min-width: 200px;
+  }
+
+  .amn-row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* .anm-button {
+    border: 1.5px solid var(--teal);
+  } */
+}

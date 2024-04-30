@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Link, useParams } from "react-router-dom";
 import { useLocation } from "react-router";
 //DATA
-import { CASESTUDIES } from '../../Data/CASESTUDIES';
+import { CASESTUDIES } from '../../data/casestudies';
 //STYLING
 import './CaseStudy.css';
 

@@ -1,7 +1,4 @@
-import cs1image1 from "../assets/casestudy4-2.png";
-import cs1gif from "../assets/flixfix.gif";
 import cs2image1 from "../assets/casestudy1-1.png";
-import cs2image2 from "../assets/reactdex-2.png";
 import cs2image3 from "../assets/casestudy1-2.png";
 import cs2gif from "../assets/reactdex-2.gif";
 import cs3image1 from "../assets/casestudy2-1.png";
@@ -9,46 +6,6 @@ import cs3image2 from "../assets/casestudy2-2.png";
 import cs3gif from "../assets/dontbudge.gif";
 
 export const CASESTUDIES = [
-  {
-    title: "FlixFix",
-    intro: `FlixFix is the client side of application allowing users to interact with server side code created and tested
-		using Express, NodeJS, Postman, and MongoDB. The backend performs CRUD interactions with a MongoDB database.
-		It allows user to view details about movie objects stored in the database, add these objects to a list of their favorite movies,
-		register for accounts, update their existing account information, and delete their accounts.
-		The goal of this app was to familiarize myself with the JavaScript framework Angular and its preferred flavor of JavaScript, TypeScript.`,
-    body: [
-      `I began by initializing my project using Angular CLI. Once the boilerplate application was created, I was overwhelmed by the
-		shear amount of files created.  Going step by step following my CareerFoundry curriculum, this task became less daunting.
-		This was also my first exposure to TypeScript, similarly, I greatly over thought the concept at first but soon realized it was
-		just JavaScript with self imposed training wheels.`,
-      `I housed the API call functions in their own TypeScript file. I created a list of movie cards rendered from the database as the
-		main page, once a user was authenticated. Passing data between components using interpolation and data binding takes a few more steps
-		than passing props in React. Even though the extra steps are complicated, two way data binding is very helpful.
-		I loaded all the data for the movies into the movie card component, then passed it to the other components to be displayed in
-		dialogs when the corresponding button was clicked.`,
-      `One of my biggest challenges while approaching this project was learning directives. Adding and removing the movies from
-		the user's favorites using JavaScript was fairly straight forward. I then added a variable to check whether or not the
-		movie was already included in the array. I used the *ngClass directive to change the material UI components on the cards
-		when users added or removed a movie from their favorites. This allowed the user's to see on screen feedback representing
-		the movies in the favorite array. I used the material UI snack bar component to give further feedback to the user in the case of
-		successful requests or errors. Once all the functionality was implemented I extensively commented my code and used TypeDoc to generate documentation.`,
-      `I appreciate how Angular has so many built in modules and a built in router. Using the Angular Material UI
-	quickly allowed me to create elements
-	I thought would take me ages at first. Angular Material also allows for a consistent user experience out of the box.`,
-    ],
-    conclusion: `This project took three weeks to complete, about half the time it took me to create a similar app in React just a few months earlier.
-	This definitely speaks to my progression as a programmer. Problems that, at first, seemed extremely complex
-	began to seem simpler when broken down. Focusing on functions in one Angular
-	file at a time instead of trying immediately to have it working across all the files in and outside of the component was very helpful.`,
-    bodyImages: [
-      {
-        name: cs1image1,
-        caption: "Function to add/remove movie from favorites",
-      },
-    ],
-    gif: { name: cs1gif, caption: "FlixFix Demo" },
-    processId: "flixfix",
-  },
   {
     title: "ReactDex",
     intro: `ReactDex is a single page application, or SPA, created using the Javascript library React, HTML5, CSS3, and the NPM package Lodash.
@@ -64,10 +21,7 @@ export const CASESTUDIES = [
       `This was the first application I created exclusively using functional components and React hooks. It was an adjustment from mainly working with class components but I now understand why its the preferred structure of modern React applications, the code is much more streamlined. With each version of the app I broke down each component into smaller pieces so future editing would be much easier.`,
     ],
     conclusion: ` After creating a React app from scratch I feel much more confident working with the library. When creating a project like this in the future I will never again set a dynamically rendered list's keys as indices. I now understand why React throws an error message when this is attempted. I am much more confident using built in hooks like useState and useEffect, and passing props between components. This project has also taught me a lot about CSS and how it interacts with React and JavaScript. I can now easily use template literals to dynamically set classes and can implement a fully responsive CSS grid.`,
-    introImages: [
-      { name: cs2image1, caption: "Application v1.0" },
-      // { name: cs2image2, caption: "Application v2.0" },
-    ],
+    introImages: [{ name: cs2image1, caption: "Application v1.0" }],
     bodyImages: [
       {
         name: cs2image3,

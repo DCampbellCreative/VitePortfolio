@@ -19,8 +19,6 @@ export const Contact = (props) => {
 							<a className='contact-link' href="https://www.linkedin.com/in/douglass-campbell/" rel="noreferrer" target="_blank">LinkedIn</a>
 							<span>/</span>
 							<a className='contact-link' href="https://github.com/DCampbellCreative/" rel="noreferrer" target="_blank">Github</a>
-							<span>/</span>
-							<a className='contact-link' href="https://dougcampbell.blog/" rel="noreferrer" target="_blank">Blog</a>
 						</div>
 					</div>
 				</div>

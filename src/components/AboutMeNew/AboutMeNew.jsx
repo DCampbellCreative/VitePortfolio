@@ -11,9 +11,8 @@ import devImage3 from '../../assets/html5.png';
 import devImage4 from '../../assets/css3.png';
 import desImage1 from '../../assets/illustrator.png'
 import desImage2 from '../../assets/figma.png'
-import Resume from "../../assets/Campbell-Doug-Resume.pdf";
 
-export const AboutMeNew = (openResume) => {
+export const AboutMeNew = ({ openResume }) => {
 	const devImages = [devImage1, devImage2, devImage3, devImage4]
 	const desImages = [desImage1, desImage2]
 	return (
@@ -25,7 +24,7 @@ export const AboutMeNew = (openResume) => {
 					<img className='amn-portrait' src={Portrait} alt='Doug Campbell' />
 					<p className='amn-body justify'>Frontend developer with passion for creating for creating responsive sites and apps. I enjoy watching films, 90&apos;s sitcoms, listening to music, and playing guitar. I&apos;m always on the lookout for the newest song or story to inspire me.</p>
 					<div className='button-row'>
-						<a className="anm-button" href={Resume} onClick={openResume} rel="noopener noreferrer" target="_blank">Resume</a>
+						<a className="anm-button" onClick={openResume} rel="noopener noreferrer" target="_blank">Resume</a>
 						<a className='anm-button' href="https://github.com/DCampbellCreative/" rel="noreferrer" target="_blank">GitHub</a>
 					</div>
 

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 //DATA
-import { PROJECTS } from '../../Data/PROJECTS';
+import { PROJECTS } from '../../data/projects';
 // STYLING
 import './MyWorkMobile.css';
 

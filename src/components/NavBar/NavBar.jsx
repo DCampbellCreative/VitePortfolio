@@ -13,7 +13,6 @@ export const NavBar = () => {
 					<Link className='nav-bar-link' offset={-100} to="home" spy={true} smooth={true}>About</Link>
 					<Link className='nav-bar-link' offset={-100} to="projects" spy={true} smooth={true}>Work</Link>
 					<Link className='nav-bar-link' to="contact" spy={true} smooth={true}>Contact</Link>
-					<a className='nav-bar-link' href="https://dougcampbell.blog/" rel="noreferrer" target="_blank">Blog</a>
 				</div>
 			</div>
 

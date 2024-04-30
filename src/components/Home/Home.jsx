@@ -4,7 +4,7 @@ import { MyWork } from '../MyWork/MyWork';
 import { Contact } from '../Contact/Contact';
 import { MyWorkMobile } from '../MyWorkMobile/MyWorkMobile';
 
-import Resume from "../../assets/Campbell-Doug-Resume.pdf"
+import Resume from '../../assets/campbell-doug-resume.pdf'
 
 export const Home = ({ width }) => {
 

@@ -7,20 +7,6 @@
   padding: 15px;
 }
 
-/* .cs-card {
-  grid-column: viewport;
-  display: inherit;
-  height: auto;
-  align-items: center;
-} */
-/* 
-.cs-card-container {
-  display: flex;
-  flex-direction: column;
-  background-color: whitesmoke;
-  padding: 15px;
-} */
-
 .cs-heading {
   display: block;
   margin-bottom: 5px;

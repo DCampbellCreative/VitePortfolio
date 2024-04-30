@@ -1,34 +1,30 @@
-import flixfixreact from "../assets/flixfixreact.png";
 import reactdex from "../assets/reactdex-3.png";
 import dontbudge from "../assets/dontbudge2.png";
 import sitcomsites from "../assets/sitcomsites.png";
+import ObservationTest from "../assets/observation-test-1.png";
+import LawlerLiving from "../assets/lawler-living.png";
 
 export const PROJECTS = [
   {
-    title: "FlixFix",
+    title: "React Observation Test",
     description:
-      "Full Stack application. Server side REST API created using NodeJS and Express. Database created using MongoDB. Two separate Client side applications. React application with UI created using React Bootstrap. Angular application created using TypeScript and MaterialUI. Users can register new accounts, login using existing accounts, and update and delete their current account. Renders a list of movies stored in database. Users can view detailed information about each title and add and remove titles from their favorites.",
-    tools: [
-      "REACT",
-      "BOOTSTRAP",
-      "ANGULAR",
-      "MATERIALUI",
-      "TYPESCRIPT",
-      "MONGODB",
-      "NODEJS",
-      "EXPRESS",
-    ],
+      "A game created as part of my Create Opportunity Columbia curriculum, users must select numbers in order from two data sets. If an incorrect number is selected the number in the respective block are shuffled. Once the game is complete the user's time and accuracy are displayed",
+    tools: ["REACT", "CSS"],
     links: {
-      "React App": "https://main--movieapiclient.netlify.app/",
-      "React Code": "https://github.com/DCampbellCreative/movie_api-client",
-      "Backend Code": "https://github.com/DCampbellCreative/movie_api",
-      "Angular App":
-        "https://dcampbellcreative.github.io/myFlix-Angular-client/welcome",
-      "Angular Code":
-        "https://github.com/DCampbellCreative/myFlix-Angular-client",
+      App: "https://dcampbellcreative.github.io/React-Observation-Test/",
+      Code: "https://github.com/DCampbellCreative/React-Observation-Test",
     },
-    processId: "flixfix",
-    imgUrl: flixfixreact,
+    imgUrl: ObservationTest,
+  },
+  {
+    title: "Lawler Living",
+    description:
+      "A marketing site created for a client using Wordpress and the Elementor Plugin. I mocked up and designed the UI to resonate with the clients' branding needs.",
+    tools: ["WORDPRESS", "ELEMENTOR"],
+    links: {
+      Website: "https://lawlerliving.com/",
+    },
+    imgUrl: LawlerLiving,
   },
   {
     title: "ReactDex",

@@ -103,5 +103,7 @@
 .card-image {
   align-self: center;
   height: 285px;
+  width: 500px;
+  object-fit: contain;
   border-radius: 5px;
 }

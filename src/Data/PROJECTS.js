@@ -19,9 +19,9 @@ export const PROJECTS = [
     imgUrl: SuperHealth,
   },
   {
-    title: "React Observation Test",
+    title: "Observation Test",
     description:
-      "A game created as part of my Create Opportunity Columbia curriculum, users must select numbers in order from two data sets. If an incorrect number is selected the number in the respective block are shuffled. Once the game is complete the user's time and accuracy are displayed",
+      "A nubmer selection game created as part of Create Opportunity Columbia curriculum, users must select numbers in order from two data sets. If an incorrect number is selected the number in the respective block are shuffled. Once the game is complete the user's time and accuracy are displayed",
     tools: ["REACT", "CSS"],
     links: {
       App: "https://dcampbellcreative.github.io/React-Observation-Test/",

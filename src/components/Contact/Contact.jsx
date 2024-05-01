@@ -1,5 +1,5 @@
-import './Contact.css';
-import { ContactForm } from '../ContactForm/ContactForm';
+import './contact.css';
+import { ContactForm } from '../contact-form/ContactForm';
 
 export const Contact = (props) => {
 

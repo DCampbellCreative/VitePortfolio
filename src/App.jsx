@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home } from "./components/Home/Home";
-import { CaseStudy } from "./components/CaseStudy/CaseStudyPage";
+import { Home } from "./components/home/Home";
+import { CaseStudyPage } from "./components/case-study/CaseStudyPage";
 import "./App.css";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home width={width} />} />
-          <Route path='/process/:processId' element={<CaseStudy />} />
+          <Route path='/process/:processId' element={<CaseStudyPage />} />
         </Routes>
       </Router>
     </div>

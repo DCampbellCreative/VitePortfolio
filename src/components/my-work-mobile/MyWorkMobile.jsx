@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 //DATA
 import { PROJECTS } from '../../data/projects';
 // STYLING
-import './MyWorkMobile.css';
+import './my-work-mobile.css';
 
 export const MyWorkMobile = () => {
 	return (

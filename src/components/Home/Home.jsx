@@ -1,8 +1,8 @@
-import { NavBar } from '../NavBar/NavBar';
-import { AboutMeNew } from '../AboutMeNew/AboutMeNew';
-import { MyWork } from '../MyWork/MyWork';
-import { Contact } from '../Contact/Contact';
-import { MyWorkMobile } from '../MyWorkMobile/MyWorkMobile';
+import { NavBar } from '../nav-bar/NavBar';
+import { AboutMe } from '../about-me/AboutMe';
+import { MyWork } from '../my-work/MyWork';
+import { Contact } from '../contact/Contact';
+import { MyWorkMobile } from '../my-work-mobile/MyWorkMobile';
 
 import Resume from '../../assets/campbell-doug-resume.pdf'
 
@@ -15,7 +15,7 @@ export const Home = ({ width }) => {
 	return (
 		<div>
 			<NavBar />
-			<AboutMeNew openResume={openResume} />
+			<AboutMe openResume={openResume} />
 			{width < 900 ? <MyWorkMobile /> : <MyWork />}
 			<Contact openResume={openResume} />
 		</div>

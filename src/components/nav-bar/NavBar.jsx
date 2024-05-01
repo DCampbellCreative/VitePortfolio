@@ -1,4 +1,4 @@
-import './NavBar.css';
+import './nav-bar.css';
 import { Link } from 'react-scroll';
 import Logo from '../../assets/hexlogo-01.png'
 

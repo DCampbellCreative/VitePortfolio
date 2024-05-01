@@ -1,34 +1,45 @@
-.amn-container {
+.container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   max-width: 1050px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 115px;
-  margin-bottom: 50px;
+  margin-top: 150px;
+  margin-bottom: 40px 0px;
 }
 
-.amn-row {
+.row {
   display: flex;
   justify-content: space-between;
   gap: 10px;
 }
 
-.button-row {
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buttonRow {
   display: flex;
   gap: 10px;
 }
 
-.amn-card-1 {
+.card1 {
   display: flex;
-  flex-direction: column;
   text-align: left;
-  width: 26%;
-  gap: 20px;
+  gap: 30px;
+  margin-bottom: 40px;
 }
 
-.amn-card {
+.portrait {
+  object-fit: contain;
+  width: 40%;
+  border-radius: 15px;
+}
+
+.card {
   display: flex;
   flex-direction: column;
   background-color: var(--black);
@@ -38,39 +49,35 @@
   min-width: 300px;
 }
 
-.amn-portrait {
-  object-fit: contain;
-  border-radius: 15px;
-}
-
-.anm-button {
-  display: flex;
+.button {
+  vertical-align: middle;
+  text-decoration: none;
   border-radius: 5px;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   border: 2px solid var(--teal);
   font-family: var(--copy);
   text-decoration: none;
   text-transform: uppercase;
-  width: 125px;
-  height: 30px;
+  width: 150px;
+  height: 40px;
   background-color: var(--opaque);
   color: var(--teal);
   transition: 0.6s;
+  font-size: 1.4em;
 }
 
-.amn-button:hover {
+.button:hover {
   cursor: pointer;
   opacity: 0.5;
 }
 
-.amn-margin {
+.margin {
   margin: 20px;
   margin-bottom: 0px;
 }
 
-.amn-heading-1 {
-  margin: 0px 0px 20px 0px;
+.heading1 {
+  margin: 0px;
   text-align: left;
   font-family: var(--heading);
   font-size: 2.5rem;
@@ -78,7 +85,7 @@
   color: var(--white);
 }
 
-.amn-heading {
+.heading {
   margin-left: 20px;
   margin-bottom: 20px;
   text-align: left;
@@ -88,22 +95,26 @@
   color: var(--white);
 }
 
-.amn-body {
-  margin: 0px 20px;
+.card1Copy {
+  margin: 0px;
   display: block;
   font-family: var(--copy);
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 1.2em;
   color: var(--white);
-  max-width: 325px;
-  margin-bottom: 40px;
 }
 
-.justify {
-  margin: 0;
+.copy {
+  margin: 0px;
+  display: block;
+  font-family: var(--copy);
+  text-align: left;
+  font-size: 1.2em;
+  color: var(--white);
+  margin: 0px 20px 40px 20px;
 }
 
-.amn-image-container {
+.imageContainer {
   display: flex;
   gap: 15px;
   margin-top: auto;
@@ -112,20 +123,8 @@
   margin-right: 20px;
 }
 
-.amn-image {
-  width: 36px;
-}
-
-.amn-image-bg {
-  display: flex;
-  place-content: center;
-  border-radius: 100%;
-  background: whitesmoke;
-  padding: 10px;
-}
-
 @media screen and (max-width: 768px) {
-  .amn-container {
+  .container {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -134,20 +133,20 @@
     height: auto;
   }
 
-  .amn-card-1 {
+  .card1 {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
   }
 
-  .amn-card {
+  .card {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     gap: 10px;
   }
 
-  .amn-body {
+  .copy {
     max-width: 300px;
     font-size: medium;
   }
@@ -159,18 +158,14 @@
     width: 100%;
   }
 
-  .amn-portrait {
+  .portrait {
     width: 100%;
     min-width: 200px;
   }
 
-  .amn-row {
+  .row {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
-
-  /* .anm-button {
-    border: 1.5px solid var(--teal);
-  } */
 }

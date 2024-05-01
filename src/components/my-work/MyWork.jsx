@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 // DATA
 import { PROJECTS } from '../../data/projects';
 // STYLING
-import './MyWork.css';
+import './my-work.css';
 
 export const MyWork = () => {
 	return (

@@ -4,9 +4,9 @@ import { useLocation } from "react-router";
 //DATA
 import { CASESTUDIES } from '../../data/casestudies';
 //STYLING
-import './CaseStudy.css';
+import './case-study.css';
 
-export const CaseStudy = () => {
+export const CaseStudyPage = () => {
 	const { processId } = useParams();
 
 	const location = useLocation();

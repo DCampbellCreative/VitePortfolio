@@ -1,8 +1,16 @@
-# React + Vite
+# Doug Campbell Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Development portfolio bootstrapped using Vite. Highlights skills, display
+descriptions and links to projects I have developed. Contains form for easy
+contact.
 
-Currently, two official plugins are available:
+## Available Scripts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. yarn install - install dependencies
+2. yarn dev - start development server
+
+## Dependencies
+
+1. react-scroll
+2. react-router-dom
+3. emailJS

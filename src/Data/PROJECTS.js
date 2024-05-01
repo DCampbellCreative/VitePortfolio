@@ -1,10 +1,23 @@
 import reactdex from "../assets/reactdex-3.png";
 import dontbudge from "../assets/dontbudge2.png";
-import sitcomsites from "../assets/sitcomsites.png";
+import SuperHealth from "../assets/super-health.png";
 import ObservationTest from "../assets/observation-test-1.png";
 import LawlerLiving from "../assets/lawler-living.png";
 
 export const PROJECTS = [
+  {
+    title: "Super Health",
+    description:
+      "A full stack application with a backend created in Java, Spring Boot, and Postgres. Front end created using React. Project with full CRUD functionality tested in Postman. Allows users to add patients and data about their doctors visits. Created as the final project of the Create Opportunity Columbia September 2023 cohort. ",
+    tools: ["REACT", "JAVA", "SPRINGBOOT", "POSTGRES", "POSTMAN"],
+    links: {
+      Frontend:
+        "https://github.com/DCampbellCreative/Create-Opp-Health-Final-UI",
+      Backend:
+        "https://github.com/DCampbellCreative/Create-Opp-Health-Final-API",
+    },
+    imgUrl: SuperHealth,
+  },
   {
     title: "React Observation Test",
     description:
@@ -49,16 +62,5 @@ export const PROJECTS = [
     },
     processId: "dontbudge",
     imgUrl: dontbudge,
-  },
-  {
-    title: "Coming Soon! Sitcom Sites",
-    description:
-      "A full stack application with a backend created in MongoDB, NodeJS, and Express. Front end created using React and TailwindCSS. I'm turning my love for 90's sitcoms into an app. Let users view facts and trivia about places used in sitcoms. Shows sets supposed real world location on map. Check out my progress so far and stay tuned for the finished project!",
-    tools: ["REACT", "TAILWINDCSS", "RESTAPI", "MONGODB"],
-    links: {
-      Frontend: "https://github.com/DCampbellCreative/Sitcom-Sites",
-      Backend: "https://github.com/DCampbellCreative/Sitcom-Sites_Backend",
-    },
-    imgUrl: sitcomsites,
   },
 ];

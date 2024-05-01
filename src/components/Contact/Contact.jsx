@@ -14,9 +14,9 @@ export const Contact = (props) => {
 					<div className={styles.linkContainer}>
 						<p className={styles.connect}>Connect:</p>
 						<button className={styles.link} onClick={props.openResume} rel="noopener noreferrer" target="_blank" >Resume</button>
-						<span>/</span>
+						<span className={styles.connect}>/</span>
 						<a className={styles.link} href="https://www.linkedin.com/in/douglass-campbell/" rel="noreferrer" target="_blank">LinkedIn</a>
-						<span>/</span>
+						<span className={styles.connect}>/</span>
 						<a className={styles.link} href="https://github.com/DCampbellCreative/" rel="noreferrer" target="_blank">Github</a>
 					</div>
 				</div>

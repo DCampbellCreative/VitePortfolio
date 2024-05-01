@@ -38,7 +38,7 @@
   font-weight: 600;
   display: flex;
   font-family: var(--copy);
-  font-size: 1.3em;
+  font-size: 1.2em;
   letter-spacing: 1px;
   color: var(--white);
   text-decoration: none;
@@ -51,7 +51,7 @@
 .link {
   display: flex;
   font-family: var(--copy);
-  font-size: 1.3em;
+  font-size: 1.2em;
   letter-spacing: 1px;
   font-weight: 400;
   color: var(--white);

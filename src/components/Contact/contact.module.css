@@ -1,36 +1,36 @@
-.contact-card {
+.card {
   height: auto;
   background-color: var(--black);
   width: 100%;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
-.contact-container {
+.container {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.contact-heading {
+.heading {
   font-weight: 600;
   font-style: bold;
   font-family: var(--heading);
   color: var(--white);
-  font-size: 2.5rem;
+  font-size: 2em;
   text-align: left;
   margin-top: 0px;
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
 }
 
-.contact-link-container {
+.linkContainer {
   font-size: 1.2rem;
   font-weight: 300;
   color: var(--white);
   display: flex;
   width: max-content;
   margin-left: auto;
-  margin-top: 2rem;
+  margin-top: 20px;
   align-items: center;
 }
 
@@ -38,7 +38,7 @@
   font-weight: 600;
   display: flex;
   font-family: var(--copy);
-  font-size: 1.2rem;
+  font-size: 1.3em;
   letter-spacing: 1px;
   color: var(--white);
   text-decoration: none;
@@ -48,10 +48,10 @@
   padding: 0;
 }
 
-.contact-link {
+.link {
   display: flex;
   font-family: var(--copy);
-  font-size: 1.2rem;
+  font-size: 1.3em;
   letter-spacing: 1px;
   font-weight: 400;
   color: var(--white);
@@ -65,41 +65,41 @@
   background: none;
 }
 
-.contact-link:first-child {
+.link:first-child {
   margin-left: 0px;
 }
 
-.contact-link:last-child {
+.link:last-child {
   margin-right: 0px;
 }
 
-.contact-link:hover {
+.link:hover {
   color: var(--teal);
   cursor: pointer;
 }
 
 @media screen and (max-width: 786px) {
-  .contact-container {
+  .container {
     width: 80%;
   }
 
-  .contact-link-container {
+  .linkContainer {
     margin: auto;
     width: 100%;
     justify-content: space-between;
   }
 
-  .contact-body,
-  .contact-link {
+  .body,
+  .link {
     font-size: 16px;
     font-weight: 400;
   }
 
-  .contact-link {
+  .link {
     font-weight: 400;
   }
 
-  .contact-link:nth-child(2) {
+  .link:nth-child(2) {
     margin-left: 0px;
   }
 

@@ -37,7 +37,7 @@ export const ContactForm = () => {
 			</div>
 			{sent === true ?
 				<button className="contact-button" disabled>Message Sent!</button> :
-				<button className="contact-button" type="submit" value="Send">Submit</button>
+				<button className="contact-button" type="submit" value="Send"><p className="contact-button-text">Submit</p></button>
 			}
 		</form>
 	)

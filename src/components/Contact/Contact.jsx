@@ -1,28 +1,26 @@
-import './contact.css';
 import { ContactForm } from '../contact-form/ContactForm';
+import styles from './contact.module.css';
 
 export const Contact = (props) => {
 
 
 
 	return (
-		<footer id='contact'>
-			<main className='contact-card'>
-				<div className='contact-container'>
-					<h1 className='contact-heading'>Contact Me</h1>
-					<ContactForm />
-					<div className='contact-card-container'>
-						<div className='contact-link-container'>
-							<p className='connect'>Connect:</p>
-							<button className='contact-link' onClick={props.openResume} rel="noopener noreferrer" target="_blank" >Resume</button>
-							<span>/</span>
-							<a className='contact-link' href="https://www.linkedin.com/in/douglass-campbell/" rel="noreferrer" target="_blank">LinkedIn</a>
-							<span>/</span>
-							<a className='contact-link' href="https://github.com/DCampbellCreative/" rel="noreferrer" target="_blank">Github</a>
-						</div>
+		<footer id='contact' className={styles.card}>
+			<div className={styles.container}>
+				<h2 className={styles.heading}>Contact Me</h2>
+				<ContactForm />
+				<div className={styles.cardContainer}>
+					<div className={styles.linkContainer}>
+						<p className={styles.connect}>Connect:</p>
+						<button className={styles.link} onClick={props.openResume} rel="noopener noreferrer" target="_blank" >Resume</button>
+						<span>/</span>
+						<a className={styles.link} href="https://www.linkedin.com/in/douglass-campbell/" rel="noreferrer" target="_blank">LinkedIn</a>
+						<span>/</span>
+						<a className={styles.link} href="https://github.com/DCampbellCreative/" rel="noreferrer" target="_blank">Github</a>
 					</div>
 				</div>
-			</main>
+			</div>
 		</footer>
 
 	);

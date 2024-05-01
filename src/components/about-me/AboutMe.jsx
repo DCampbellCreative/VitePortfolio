@@ -60,7 +60,7 @@ export const AboutMe = ({ openResume }) => {
 						strokeWidth={2}
 					/>
 					<h2 className={styles.heading}>Backend<br />Development</h2>
-					<p className={styles.copy}>Built and tested multiple APIs using Java, Spring Boot, Postman, and Postgres. Connected frontend apps to APIs and created backend in NodeJS and MongoDB.</p>
+					<p className={styles.copy}>Built and tested multiple REST APIs with full CRUD functionality using Java, Spring Boot, Postman, and Postgres. Connected frontend apps to APIs and created backend in NodeJS and MongoDB.</p>
 					<div className={styles.imageContainer}>
 						{beImages.map((img, idx) => (<TechIcon img={img} key={idx} />))}
 					</div>

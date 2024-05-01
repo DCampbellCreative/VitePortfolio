@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-import './contact-form.css'
+import styles from './contact-form.module.css';
 
 export const ContactForm = () => {
 	const [sent, setSent] = useState('false');
@@ -22,22 +22,22 @@ export const ContactForm = () => {
 
 
 	return (
-		<form ref={form} onSubmit={sendEmail} className='contact-form-container'>
-			<div className='form-group'>
-				<label className="input-label" htmlFor='name'>Name</label>
-				<input className="input-field" type="text" name="user_name" placeholder="Enter your name" required />
+		<form ref={form} onSubmit={sendEmail} className={styles.container}>
+			<div className={styles.formGroup}>
+				<label className={styles.label} htmlFor='name'>Name</label>
+				<input className={styles.field} type="text" name="user_name" placeholder="Enter your name" required />
 			</div>
-			<div className='form-group'>
-				<label className="input-label" htmlFor='email'>Email</label>
-				<input className="input-field" type="email" name="user_email" placeholder="Enter your email" required />
+			<div className={styles.formGroup}>
+				<label className={styles.label} htmlFor='email'>Email</label>
+				<input className={styles.field} type="email" name="user_email" placeholder="Enter your email" required />
 			</div>
-			<div className='form-group'>
-				<label className="input-label" htmlFor='message'>Message</label>
-				<textarea className="input-field if-text" name="message" placeholder="Enter your message" required />
+			<div className={styles.formGroup}>
+				<label className={styles.label} htmlFor='message'>Message</label>
+				<textarea className={styles.field} name="message" placeholder="Enter your message" required />
 			</div>
 			{sent === true ?
-				<button className="contact-button" disabled>Message Sent!</button> :
-				<button className="contact-button" type="submit" value="Send"><p className="contact-button-text">Submit</p></button>
+				<button className={styles.button} disabled><p className={styles.buttonText}>Message Sent!</p></button> :
+				<button className={styles.button} type="submit" value="Send"><p className={styles.buttonText}>Submit</p></button>
 			}
 		</form>
 	)

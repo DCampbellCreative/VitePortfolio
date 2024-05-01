@@ -19,6 +19,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .buttonRow {
@@ -35,7 +36,7 @@
 
 .portrait {
   object-fit: contain;
-  width: 40%;
+  width: 30%;
   border-radius: 15px;
 }
 

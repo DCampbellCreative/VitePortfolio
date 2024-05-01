@@ -1,16 +1,16 @@
-.contact-form-container {
+.container {
   width: 100%;
   margin: auto;
 }
 
-.form-group {
+.formGroup {
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 100%;
 }
 
-.input-label {
+.label {
   font-family: var(--copy);
   font-size: 1.4em;
   font-weight: 400;
@@ -20,7 +20,7 @@
   text-transform: capitalize;
 }
 
-.input-field {
+.field {
   margin-bottom: 1rem;
   font-family: var(--copy);
   font-size: large;
@@ -29,35 +29,27 @@
   padding-left: 5px;
 }
 
-input {
+.input {
   border-radius: 5px;
   border: 2px solid var(--black);
 }
 
-textarea {
+.textarea {
   border-radius: 5px;
   border: 2px solid var(--black);
 }
 
-input:focus {
+.input:focus {
   outline: none;
   border: 2px solid var(--teal);
 }
 
-textarea:focus {
+.textarea:focus {
   outline: none;
   border: 2px solid var(--teal);
 }
 
-.if-text {
-  height: 5rem;
-}
-
-.mb {
-  margin-bottom: 1rem;
-}
-
-.contact-button {
+.button {
   border-radius: 5px;
   border: 2px solid var(--teal);
   font-family: var(--copy);
@@ -74,7 +66,7 @@ textarea:focus {
   margin-left: auto;
 }
 
-.contact-button-text {
+.buttonText {
   display: flex;
   height: 1.3em;
   font-size: 1.3em;
@@ -82,20 +74,19 @@ textarea:focus {
   padding-bottom: 3px;
 }
 
-.contact-button:hover {
+.button:hover {
   cursor: pointer;
   opacity: 0.5;
 }
 
 @media screen and (max-width: 786px) {
-  .input-label,
-  .input-form {
+  .label,
+  .input {
     font-size: 18px;
     font-weight: 400;
   }
 
-  .card-button-mobile {
-    height: 30px;
-    font-size: 14px;
+  .container {
+    margin-bottom: 20px;
   }
 }

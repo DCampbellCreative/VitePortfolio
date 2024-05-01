@@ -1,9 +1,9 @@
-.my-work-container {
+.container {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.project-card-mobile {
+.card {
   grid-column: viewport;
   display: inherit;
   height: auto;
@@ -12,14 +12,14 @@
   margin: 15px 0px 15px 0px;
 }
 
-.card-container-mobile {
+.cardContainer {
   padding: 4%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.card-image-mobile {
+.image {
   display: flex;
   width: 98%;
   align-self: flex-start;
@@ -27,7 +27,7 @@
   border-radius: 5px;
 }
 
-.card-heading-mobile {
+.heading {
   text-align: left;
   margin: 0 0 12px 0;
   font-family: var(--heading);
@@ -36,7 +36,7 @@
   color: var(--white);
 }
 
-.card-body-mobile {
+.body {
   margin: 0 0 12px 0;
   font-family: var(--copy);
   text-align: left;
@@ -45,7 +45,7 @@
   color: var(--white);
 }
 
-.project-tools-mobile {
+.tools {
   font-family: var(--copy);
   text-align: left;
   font-size: large;
@@ -54,30 +54,36 @@
   margin: 0 0 12px 0;
 }
 
-.button-container-mobile {
+.buttonContainer {
   display: flex;
   width: 90%;
   flex-wrap: wrap;
   gap: 10px;
 }
 
-.card-button-mobile {
+.cardButton {
   display: flex;
   border-radius: 5px;
   border: 2px solid var(--teal);
   font-family: var(--copy);
   text-decoration: none;
   text-transform: uppercase;
-  margin-right: 10px;
-  width: 100px;
-  height: 30px;
+  min-width: 125px;
+  height: 35px;
   background-color: var(--opaque);
   color: var(--teal);
-  font-size: 14px;
   transition: 0.6s;
+  justify-content: center;
+  align-items: center;
 }
 
-.card-button-mobile:hover {
+.text {
+  height: 1em;
+  line-height: 1em;
+  font-size: 1em;
+}
+
+.cardButton:hover {
   cursor: pointer;
   opacity: 0.5;
 }

@@ -30,8 +30,8 @@ export const AboutMe = ({ openResume }) => {
 				<img className={styles.portrait} src={Portrait} alt='Doug Campbell' />
 				<div className={styles.column}>
 					<h1 className={styles.heading1}>Hi, I&apos;m Doug</h1>
-					<p className={styles.card1Copy}>I&apos;m a developer with a passion for building and designing applications. I love to learn new technologies. I have a bachelor&apos;s degree in Visual Communications from the University of South Carolina. I have 3 years of experience developing software including contracts, internship roles, and 2 full stack development certifications. </p>
-					<p className={styles.card1Copy}>When I&apos;m not building applications I love listening to and discovering new music, taking care of plants, watching films, working out and hiking. I’m always on the lookout for the newest song or story to inspire me. </p>
+					<p className={styles.card1Copy}>I&apos;m a developer with a passion for building and designing applications. I love to learn new technologies. I have a bachelor&apos;s degree in Visual Communications from the University of South Carolina. I have 3 years of experience developing software including contracts, internship roles, and 2 full stack development certifications.
+						When I&apos;m not building applications I love listening to and discovering new music, taking care of plants, watching films, working out and hiking. I’m always on the lookout for the newest song or story to inspire me. </p>
 					<div className={styles.buttonRow}>
 						<LinkButton text={'Resume'} onClick={openResume} />
 						<LinkButton text={'Github'} href={"https://github.com/DCampbellCreative/"} />

@@ -26,3 +26,16 @@
   margin: 0px;
   padding-bottom: 3px;
 }
+
+@media screen and (max-width: 900px) {
+  .button {
+    width: 100px;
+    height: 35px;
+  }
+
+  .text {
+    height: 1em;
+    line-height: 1em;
+    font-size: 1em;
+  }
+}

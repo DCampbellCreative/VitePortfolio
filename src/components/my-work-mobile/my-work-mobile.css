@@ -58,6 +58,7 @@
   display: flex;
   width: 90%;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .card-button-mobile {

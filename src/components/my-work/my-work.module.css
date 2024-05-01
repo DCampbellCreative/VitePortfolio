@@ -1,28 +1,35 @@
-.my-work-container {
+.container {
   display: flex;
-  margin: 50px auto;
+  margin: 0px auto;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
-.project-card {
+.list {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
   display: flex;
   height: auto;
-  width: 1050px;
+  max-width: 1200px;
+  height: 450px;
   background-color: var(--black);
-  margin: 15px;
 }
 
-.project-card:first-child {
+.card:first-child {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 
-.project-card:last-child {
+.card:last-child {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 
-.card-container {
+.cardContainer {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -30,18 +37,18 @@
   padding: 40px 50px;
 }
 
-.column-1 {
+.column1 {
   display: grid;
   grid-column-start: 1;
 }
 
-.column-1-container {
+.column1Container {
   display: flex;
   justify-content: space-around;
   flex-flow: column;
 }
 
-.card-heading {
+.heading {
   margin: 0 0 20px 0;
   text-align: left;
   font-family: var(--heading);
@@ -50,15 +57,15 @@
   color: var(--white);
 }
 
-.card-body {
+.body {
   margin: 0 0 20px 0;
   font-family: var(--copy);
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 1.2em;
   color: var(--white);
 }
 
-.project-tools {
+.tools {
   font-family: var(--copy);
   font-size: large;
   font-style: italic;
@@ -67,40 +74,47 @@
   color: var(--white);
 }
 
-.button-container {
+.buttonContainer {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
-.card-button {
-  display: flex;
+.cardButton {
   border-radius: 5px;
-  justify-content: center;
-  align-items: center;
   border: 2px solid var(--teal);
   font-family: var(--copy);
   text-decoration: none;
   text-transform: uppercase;
-  margin-right: 20px;
-  margin-bottom: 12px;
-  width: 125px;
-  height: 30px;
+  min-width: 125px;
   background-color: var(--opaque);
   color: var(--teal);
   transition: 0.6s;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card-button:hover {
+.linkText {
+  display: flex;
+  height: 1.3em;
+  font-size: 1.3em;
+  margin: 0px;
+  padding-bottom: 3px;
+}
+
+.cardButton:hover {
   cursor: pointer;
   opacity: 0.5;
 }
 
-.column-2 {
+.column2 {
   display: grid;
   grid-column-start: 2;
 }
 
-.card-image {
+.cardImage {
   align-self: center;
   height: 285px;
   width: 500px;

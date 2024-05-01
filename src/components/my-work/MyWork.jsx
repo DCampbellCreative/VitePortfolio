@@ -2,35 +2,35 @@ import { Link } from "react-router-dom";
 // DATA
 import { PROJECTS } from '../../data/projects';
 // STYLING
-import './my-work.css';
+import styles from './my-work.module.css';
+import LinkButton from "../link-button/LinkButton";
 
 export const MyWork = () => {
 	return (
-		<section className="my-work-container" id='projects'>
-			<main className="project-list">
-				{PROJECTS.map((project, idx) => (<article key={idx} className="project-card">
-					<div className='card-container'>
-						<div className="column-1">
-							<div className="column-1-container">
-								<h2 className="card-heading">{project.title}</h2>
-								<p className="card-body">
+		<section className={styles.container} id='projects'>
+			<main className={styles.list}>
+				{PROJECTS.map((project, idx) => (<article key={idx} className={styles.card}>
+					<div className={styles.cardContainer}>
+						<div className={styles.column1}>
+							<div className={styles.column1Container}>
+								<h2 className={styles.heading}>{project.title}</h2>
+								<p className={styles.body}>
 									{project.description}
 								</p>
-								<div className="project-tools">
+								<div className={styles.tools}>
 									{project.tools.map((tool, i) => (<span key={i + tool}>{(i ? ', ' : '') + '#' + tool}</span>))}
 								</div>
-								<div className="button-container">
-									{Object.entries(project.links).map(([key, value], i) => (<a key={i + key} className="card-button" href={value} rel="noreferrer" target="_blank">{key}</a>))}
-									{project.processId ? <Link className="card-button" to={`process/${project.processId}`}>Process</Link> : null}
+								<div className={styles.buttonContainer}>
+									{Object.entries(project.links).map(([key, value], i) => (<LinkButton key={i + key} href={value} text={key} />))}
+									{project.processId ? <Link className={styles.cardButton} to={`process/${project.processId}`}><p className={styles.linkText}>Process</p></Link> : null}
 								</div>
 							</div>
 						</div>
-						<div className='column-2'>
-							<img className="card-image" src={project.imgUrl} alt={project.title} />
+						<div className={styles.column2}>
+							<img className={styles.cardImage} src={project.imgUrl} alt={project.title} />
 						</div>
 					</div>
 				</article>))}
-
 			</main>
 		</section>
 	)

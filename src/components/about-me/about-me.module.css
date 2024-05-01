@@ -2,11 +2,11 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  max-width: 1050px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 150px;
-  margin-bottom: 40px 0px;
+  margin-bottom: 40px;
 }
 
 .row {
@@ -23,7 +23,7 @@
 
 .buttonRow {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 .card1 {
@@ -47,28 +47,6 @@
   text-align: left;
   width: 32%;
   min-width: 300px;
-}
-
-.button {
-  vertical-align: middle;
-  text-decoration: none;
-  border-radius: 5px;
-  text-align: center;
-  border: 2px solid var(--teal);
-  font-family: var(--copy);
-  text-decoration: none;
-  text-transform: uppercase;
-  width: 150px;
-  height: 40px;
-  background-color: var(--opaque);
-  color: var(--teal);
-  transition: 0.6s;
-  font-size: 1.4em;
-}
-
-.button:hover {
-  cursor: pointer;
-  opacity: 0.5;
 }
 
 .margin {
@@ -136,6 +114,15 @@
   .card1 {
     width: 100%;
     height: auto;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .card1Copy {
+    margin-bottom: 30px;
+  }
+
+  .heading1 {
     margin-bottom: 20px;
   }
 
@@ -148,7 +135,6 @@
 
   .copy {
     max-width: 300px;
-    font-size: medium;
   }
 
   .justify {

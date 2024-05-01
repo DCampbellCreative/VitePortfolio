@@ -1,0 +1,28 @@
+.button {
+  border-radius: 5px;
+  border: 2px solid var(--teal);
+  font-family: var(--copy);
+  text-decoration: none;
+  text-transform: uppercase;
+  min-width: 125px;
+  background-color: var(--opaque);
+  color: var(--teal);
+  transition: 0.6s;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.text {
+  display: flex;
+  height: 1.3em;
+  font-size: 1.3em;
+  margin: 0px;
+  padding-bottom: 3px;
+}

@@ -19,7 +19,7 @@ export const PROJECTS = [
   {
     title: "Lawler Living",
     description:
-      "A marketing site created for a client using Wordpress and the Elementor Plugin. I mocked up and designed the UI to resonate with the clients' branding needs.",
+      "A marketing site created for a client using Wordpress and the Elementor Plugin. Mocked up and designed the UI to resonate with the client's branding needs.",
     tools: ["WORDPRESS", "ELEMENTOR"],
     links: {
       Website: "https://lawlerliving.com/",
@@ -56,9 +56,8 @@ export const PROJECTS = [
       "A full stack application with a backend created in MongoDB, NodeJS, and Express. Front end created using React and TailwindCSS. I'm turning my love for 90's sitcoms into an app. Let users view facts and trivia about places used in sitcoms. Shows sets supposed real world location on map. Check out my progress so far and stay tuned for the finished project!",
     tools: ["REACT", "TAILWINDCSS", "RESTAPI", "MONGODB"],
     links: {
-      "Frontend Code": "https://github.com/DCampbellCreative/Sitcom-Sites",
-      "Backend Code":
-        "https://github.com/DCampbellCreative/Sitcom-Sites_Backend",
+      Frontend: "https://github.com/DCampbellCreative/Sitcom-Sites",
+      Backend: "https://github.com/DCampbellCreative/Sitcom-Sites_Backend",
     },
     imgUrl: sitcomsites,
   },

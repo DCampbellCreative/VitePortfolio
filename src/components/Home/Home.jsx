@@ -13,12 +13,12 @@ export const Home = ({ width }) => {
 	}
 
 	return (
-		<div>
+		<>
 			<NavBar />
 			<AboutMe openResume={openResume} />
 			{width < 900 ? <MyWorkMobile /> : <MyWork />}
 			<Contact openResume={openResume} />
-		</div>
+		</>
 	);
 }
 

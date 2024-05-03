@@ -33,7 +33,7 @@ export const ContactForm = () => {
 			</div>
 			<div className={styles.formGroup}>
 				<label className={styles.label} htmlFor='message'>Message</label>
-				<textarea className={styles.field} name="message" placeholder="Enter your message" required />
+				<textarea className={styles.textarea} name="message" placeholder="Enter your message" required />
 			</div>
 			{sent === true ?
 				<button className={styles.button} disabled><p className={styles.buttonText}>Message Sent!</p></button> :

@@ -18,8 +18,8 @@
 .column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 20px;
+  justify-content: center;
 }
 
 .buttonRow {
@@ -27,16 +27,38 @@
   gap: 15px;
 }
 
-.card1 {
+.topSection {
   display: flex;
   text-align: left;
   gap: 30px;
   margin-bottom: 40px;
 }
 
+.topHeading {
+  margin: 0px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: var(--heading);
+  font-size: 3em;
+  font-weight: 600;
+  color: var(--white);
+  margin-top: 0px;
+  line-height: 100%;
+}
+
+.topCopy {
+  margin: 0px;
+  margin-bottom: 20px;
+  display: block;
+  font-family: var(--copy);
+  text-align: left;
+  font-size: 1.2em;
+  color: var(--white);
+}
+
 .portrait {
   object-fit: contain;
-  width: 30%;
+  width: 32%;
   border-radius: 15px;
 }
 
@@ -55,31 +77,13 @@
   margin-bottom: 0px;
 }
 
-.heading1 {
-  margin: 0px;
-  text-align: left;
-  font-family: var(--heading);
-  font-size: 2.5rem;
-  font-weight: 600;
-  color: var(--white);
-}
-
 .heading {
   margin-left: 20px;
   margin-bottom: 20px;
   text-align: left;
   font-family: var(--heading);
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: 600;
-  color: var(--white);
-}
-
-.card1Copy {
-  margin: 0px;
-  display: block;
-  font-family: var(--copy);
-  text-align: left;
-  font-size: 1.2em;
   color: var(--white);
 }
 
@@ -112,18 +116,18 @@
     height: auto;
   }
 
-  .card1 {
+  .topSection {
     width: 100%;
     height: auto;
     flex-direction: column;
     margin-bottom: 30px;
   }
 
-  .card1Copy {
+  .topCopy {
     margin-bottom: 30px;
   }
 
-  .heading1 {
+  .topHeading {
     margin-bottom: 20px;
   }
 

@@ -26,11 +26,11 @@ export const AboutMe = ({ openResume }) => {
 
 	return (
 		<div className={styles.container} id="home">
-			<div className={styles.card1}>
+			<div className={styles.topSection}>
 				<img className={styles.portrait} src={Portrait} alt='Doug Campbell' />
 				<div className={styles.column}>
-					<h1 className={styles.heading1}>Hi, I&apos;m Doug</h1>
-					<p className={styles.card1Copy}>I&apos;m a developer with a passion for building and designing applications. I love to learn new technologies. I have a bachelor&apos;s degree in Visual Communications from the University of South Carolina. I have 3 years of experience developing software including contracts, internship roles, and 2 full stack development certifications.
+					<h1 className={styles.topHeading}>Hi, I&apos;m Doug</h1>
+					<p className={styles.topCopy}>I&apos;m a developer with a passion for building and designing applications. I love to learn new technologies.
 						When I&apos;m not building applications I love listening to and discovering new music, taking care of plants, watching films, working out and hiking. I’m always on the lookout for the newest song or story to inspire me. </p>
 					<div className={styles.buttonRow}>
 						<LinkButton text={'Resume'} onClick={openResume} />
@@ -47,22 +47,9 @@ export const AboutMe = ({ openResume }) => {
 						color={'#44A1A0'}
 					/>
 					<h2 className={styles.heading}>Frontend<br />Development</h2>
-					<p className={styles.copy}>3 years experience including internship and contract positions. Focus on React and JavaScript. Well versed in CSS frameworks and component libraries including TailwindCSS and Mantine UI. Built fully responsive pages using no code tools like Webflow, Wordpress, and Wix Editor X.</p>
+					<p className={styles.copy}>3 years of experience developing software including contracts and internship roles. 2 full stack development certifications, Create Opportunity Columbia and Career Foundry. Focus on React and JavaScript. Well versed in CSS frameworks and React component libraries including Tailwind CSS, Material UI, and Mantine UI. Designed and built fully responsive pages using low code tools like Webflow and Wordpress.</p>
 					<div className={styles.imageContainer}>
 						{devImages.map((img, idx) => (<TechIcon img={img} key={idx} />))}
-					</div>
-				</div>
-				<div className={styles.card}>
-					<Database
-						className={styles.margin}
-						size={48}
-						color="#44A1A0"
-						strokeWidth={2}
-					/>
-					<h2 className={styles.heading}>Backend<br />Development</h2>
-					<p className={styles.copy}>Built and tested multiple REST APIs with full CRUD functionality using Java, Spring Boot, Postman, and Postgres. Connected frontend apps to APIs and created backend in NodeJS and MongoDB.</p>
-					<div className={styles.imageContainer}>
-						{beImages.map((img, idx) => (<TechIcon img={img} key={idx} />))}
 					</div>
 				</div>
 				<div className={styles.card}>
@@ -73,11 +60,25 @@ export const AboutMe = ({ openResume }) => {
 						strokeWidth={2}
 					/>
 					<h2 className={styles.heading}>Graphic<br />&&nbsp;UI Design</h2>
-					<p className={styles.copy}>Bachelor&apos;s degree in Visual Communications, with minor in Graphic Design, from the University of South Carolina. Over 15 years experience designing ads, print materials, and online content using Adobe Creative Suite and other tools. Well versed in creating and converting UI mock ups using Figma and Penpot</p>
+					<p className={styles.copy}>Graduated from the University of South Carolina with a bachelor&apos;s degree in Visual Communications and minor in Graphic Design. 15 years experience designing graphics, ads, print materials, and online content using Adobe Creative Suite and other tools. Created and converted UI mock ups for frontend applications using Figma and Penpot</p>
 					<div className={styles.imageContainer}>
 						{desImages.map((img, idx) => (<TechIcon img={img} key={idx} />))}
 					</div>
 				</div>
+				<div className={styles.card}>
+					<Database
+						className={styles.margin}
+						size={48}
+						color="#44A1A0"
+						strokeWidth={2}
+					/>
+					<h2 className={styles.heading}>Backend<br />Development</h2>
+					<p className={styles.copy}>Built and tested multiple REST APIs with full CRUD functionality using Java, Spring Boot, Postman, Postgres, Node JS, Express, and Mongo DB.</p>
+					<div className={styles.imageContainer}>
+						{beImages.map((img, idx) => (<TechIcon img={img} key={idx} />))}
+					</div>
+				</div>
+
 
 			</div>
 		</div>

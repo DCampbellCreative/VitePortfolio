@@ -211,19 +211,3 @@
     border: 1px solid var(--black);
   }
 }
-
-@media screen and (min-width: 1200px) {
-  /* .cs-container {
-    max-width: 1040px;
-  } */
-
-  /* .cs-image {
-    width: 15rem;
-    margin-bottom: -20px;
-  } */
-
-  /* .cs-video {
-    width: 30rem;
-    margin-bottom: -20px;
-  } */
-}

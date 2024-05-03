@@ -8,8 +8,15 @@ export const PROJECTS = [
   {
     title: "Super Health",
     description:
-      "A full stack application with a backend created in Java, Spring Boot, and Postgres. Front end created using React. Project with full CRUD functionality tested in Postman. Allows users to add patients and data about their doctors visits. Created as the final project of the Create Opportunity Columbia September 2023 cohort. ",
-    tools: ["REACT", "JAVA", "SPRINGBOOT", "POSTGRES", "POSTMAN"],
+      "A full stack application with a backend created in Java, Spring Boot, and Postgres. Front end created using React. Project with full CRUD functionality tested in Postman. Allows users to add patients and data about their doctors visits. Created as the final project of the Create Opportunity Columbia September 2023 cohort.",
+    tools: [
+      "REACT",
+      "CSS MODULES",
+      "JAVA",
+      "SPRINGBOOT",
+      "POSTGRES",
+      "POSTMAN",
+    ],
     links: {
       Frontend:
         "https://github.com/DCampbellCreative/Create-Opp-Health-Final-UI",
@@ -21,8 +28,8 @@ export const PROJECTS = [
   {
     title: "Observation Test",
     description:
-      "A nubmer selection game created as part of Create Opportunity Columbia curriculum, users must select numbers in order from two data sets. If an incorrect number is selected the number in the respective block are shuffled. Once the game is complete the user's time and accuracy are displayed",
-    tools: ["REACT", "CSS"],
+      "A number selection game created as part of Create Opportunity Columbia curriculum. Users must select numbers in order from two data sets. If an incorrect number is selected the numbers in the current block are shuffled. Records users' time and accuracy and displays them once the game is completed.",
+    tools: ["REACT", "CSS MODULES"],
     links: {
       App: "https://dcampbellcreative.github.io/React-Observation-Test/",
       Code: "https://github.com/DCampbellCreative/React-Observation-Test",
@@ -42,7 +49,7 @@ export const PROJECTS = [
   {
     title: "ReactDex",
     description:
-      "A Pokédex created using create-react-app, lodash, pokeapi.co, and React. Loads and displays a list of Pokémon from pokeapi.co and displays their names and sprites. The list is searchable by name and sortable by ID number or name ascending and descending. Clicking on a list item loads a modal showing front and back sprites, height, and types of selected Pokémon. Changes background based upon Pokémon's type.",
+      "A Pokédex created using React, Lodash, and Pokeapi.co. Loads and displays a list of Pokémon from Pokeapi.co and displays their names and sprites. List is searchable by name and sortable by ID number or name ascending and descending. Clicking on an item loads a modal showing front and back sprites, height, and types of selected Pokémon. Changes background based upon Pokémon's type.",
     tools: ["REACT", "CSS", "LODASH"],
     links: {
       App: "https://dcampbellcreative.github.io/react-pokedex/",
@@ -54,8 +61,8 @@ export const PROJECTS = [
   {
     title: "Don't Budge",
     description:
-      "A budgeting app created using vanilla JavaScript, HTML, and CSS. Allows users to enter their budget and expenses and calculate a balance based upon these inputs. Forms are validated before values can be submitted. Expenses are displayed on screen and can be removed from display and calculation by clicking the delete button.",
-    tools: ["REACT", "CSS", "LODASH"],
+      "Budgeting app created using vanilla JavaScript, HTML, and CSS. Allows users to enter their budget and expenses and calculate a balance based upon these inputs. Forms are validated before values can be submitted. Expenses are displayed on screen and can be removed from display and calculation by clicking the delete button.",
+    tools: ["JAVASCRIPT", "HTML", "CSS"],
     links: {
       App: "https://dcampbellcreative.github.io/dont_budge/",
       Code: "https://github.com/DCampbellCreative/dont_budge",

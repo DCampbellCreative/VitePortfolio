@@ -18,7 +18,7 @@ export const MyWork = () => {
 									{project.description}
 								</p>
 								<div className={styles.tools}>
-									{project.tools.map((tool, i) => (<span key={i + tool}>{(i ? ', ' : '') + '#' + tool}</span>))}
+									{project.tools.map((tool, i) => (<span key={i + tool}>{(i ? ' / ' : '') + tool}</span>))}
 								</div>
 								<div className={styles.buttonContainer}>
 									{Object.entries(project.links).map(([key, value], i) => (<LinkButton key={i + key} href={value} text={key} />))}

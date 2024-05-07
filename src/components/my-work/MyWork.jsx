@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 // DATA
-import { PROJECTS } from '../../data/PROJECTS';
+import { PROJECTS } from '../../Data/PROJECTS';
 // STYLING
 import styles from './my-work.module.css';
 import LinkButton from "../link-button/LinkButton";

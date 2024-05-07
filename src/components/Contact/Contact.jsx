@@ -2,9 +2,6 @@ import { ContactForm } from '../contact-form/ContactForm';
 import styles from './contact.module.css';
 
 export const Contact = (props) => {
-
-
-
 	return (
 		<footer id='contact' className={styles.card}>
 			<div className={styles.container}>
@@ -22,6 +19,5 @@ export const Contact = (props) => {
 				</div>
 			</div>
 		</footer>
-
 	);
 }

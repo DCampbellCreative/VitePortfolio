@@ -1,20 +1,20 @@
 import { Code, Brush, Database } from 'tabler-icons-react';
-import Portrait from '../../assets/self-portrait-min.png'
+import Portrait from '/assets/self-portrait-min.png'
 
 // STYLING
 import styles from './about-me.module.css';
 
 // IMAGES
-import devImage1 from '../../assets/react.png';
-import devImage2 from '../../assets/javascript.png';
-import devImage3 from '../../assets/html5.png';
-import devImage4 from '../../assets/css3.png';
-import desImage1 from '../../assets/illustrator.png'
-import desImage2 from '../../assets/figma.png';
-import desImage3 from '../../assets/penpot.svg'
-import beImage1 from '../../assets/java.svg';
-import beImage2 from '../../assets/spring.svg';
-import beImage3 from '../../assets/postman.svg';
+import devImage1 from '/assets/react.png';
+import devImage2 from '/assets/javascript.png';
+import devImage3 from '/assets/html5.png';
+import devImage4 from '/assets/css3.png';
+import desImage1 from '/assets/illustrator.png'
+import desImage2 from '/assets/figma.png';
+import desImage3 from '/assets/penpot.svg'
+import beImage1 from '/assets/java.svg';
+import beImage2 from '/assets/spring.svg';
+import beImage3 from '/assets/postman.svg';
 import TechIcon from '../tech-icon/TechIcon';
 import LinkButton from '../link-button/LinkButton';
 

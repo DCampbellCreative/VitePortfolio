@@ -1,6 +1,6 @@
 import styles from './nav-bar.module.css';
 import { Link } from 'react-scroll';
-import Logo from '../../assets/hexlogo-01.png'
+import Logo from '/assets/hexlogo-01.png'
 
 export const NavBar = () => {
 	return (

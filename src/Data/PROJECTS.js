@@ -1,8 +1,8 @@
-import reactdex from "../assets/reactdex-3.png";
-import dontbudge from "../assets/dontbudge2.png";
-import SuperHealth from "../assets/super-health.png";
-import ObservationTest from "../assets/observation-test-1.png";
-import LawlerLiving from "../assets/lawler-living.png";
+import reactdex from "/assets/reactdex-3.png";
+import dontbudge from "/assets/dontbudge2.png";
+import SuperHealth from "/assets/super-health.png";
+import ObservationTest from "/assets/observation-test-1.png";
+import LawlerLiving from "/assets/lawler-living.png";
 
 export const PROJECTS = [
   {

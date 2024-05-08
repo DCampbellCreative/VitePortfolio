@@ -1,9 +1,9 @@
-import cs2image1 from "../assets/casestudy1-1.png";
-import cs2image3 from "../assets/casestudy1-2.png";
-import cs2gif from "../assets/reactdex-2.gif";
-import cs3image1 from "../assets/casestudy2-1.png";
-import cs3image2 from "../assets/casestudy2-2.png";
-import cs3gif from "../assets/dontbudge.gif";
+import cs2image1 from "/assets/casestudy1-1.png";
+import cs2image3 from "/assets/casestudy1-2.png";
+import cs2gif from "/assets/reactdex-2.gif";
+import cs3image1 from "/assets/casestudy2-1.png";
+import cs3image2 from "/assets/casestudy2-2.png";
+import cs3gif from "/assets/dontbudge.gif";
 
 export const CASESTUDIES = [
   {

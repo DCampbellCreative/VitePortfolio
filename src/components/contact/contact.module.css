@@ -1,0 +1,109 @@
+.card {
+  height: auto;
+  background-color: var(--black);
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading {
+  font-weight: 600;
+  font-style: bold;
+  font-family: var(--heading);
+  color: var(--white);
+  font-size: 2em;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.linkContainer {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--white);
+  display: flex;
+  width: max-content;
+  margin-left: auto;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.connect {
+  font-weight: 600;
+  display: flex;
+  font-family: var(--copy);
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  color: var(--white);
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 0px;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.link {
+  display: flex;
+  font-family: var(--copy);
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: var(--white);
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  transition: 0.6s;
+  text-transform: uppercase;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.link:first-child {
+  margin-left: 0px;
+}
+
+.link:last-child {
+  margin-right: 0px;
+}
+
+.link:hover {
+  color: var(--teal);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 786px) {
+  .container {
+    width: 80%;
+  }
+
+  .linkContainer {
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .body,
+  .link {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .link {
+    font-weight: 400;
+  }
+
+  .link:nth-child(2) {
+    margin-left: 0px;
+  }
+
+  .connect {
+    display: none;
+  }
+}

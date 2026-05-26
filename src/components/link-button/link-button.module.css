@@ -1,5 +1,5 @@
 .button {
-  border-radius: 5px;
+  border-radius: var(--radius-sm);
   border: 2px solid var(--teal);
   font-family: var(--copy);
   text-decoration: none;
@@ -7,7 +7,7 @@
   min-width: 125px;
   background-color: var(--opaque);
   color: var(--teal);
-  transition: 0.6s;
+  transition: var(--transition);
   height: 40px;
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@
 .text {
   display: flex;
   height: 1.3em;
-  font-size: 1.3em;
+  font-size: var(--text-lg);
   margin: 0px;
   padding-bottom: 3px;
 }
@@ -36,6 +36,6 @@
   .text {
     height: 1em;
     line-height: 1em;
-    font-size: 1em;
+    font-size: var(--text-sm);
   }
 }

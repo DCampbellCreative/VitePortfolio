@@ -6,7 +6,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 150px;
-  margin-bottom: 40px;
+  margin-bottom: var(--space-2xl);
 }
 
 .row {
@@ -18,28 +18,28 @@
 .column {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: var(--space-md);
   justify-content: center;
 }
 
 .buttonRow {
   display: flex;
-  gap: 15px;
+  gap: var(--space-sm);
 }
 
 .topSection {
   display: flex;
   text-align: left;
   gap: 30px;
-  margin-bottom: 40px;
+  margin-bottom: var(--space-2xl);
 }
 
 .topHeading {
   margin: 0px;
-  margin-bottom: 20px;
+  margin-bottom: var(--space-md);
   text-align: left;
   font-family: var(--heading);
-  font-size: 3em;
+  font-size: var(--text-4xl);
   font-weight: 600;
   color: var(--white);
   margin-top: 0px;
@@ -48,41 +48,41 @@
 
 .topCopy {
   margin: 0px;
-  margin-bottom: 20px;
+  margin-bottom: var(--space-md);
   display: block;
   font-family: var(--copy);
   text-align: left;
-  font-size: 1.2em;
+  font-size: var(--text-md);
   color: var(--white);
 }
 
 .portrait {
   object-fit: contain;
   width: 32%;
-  border-radius: 15px;
+  border-radius: var(--radius-md);
 }
 
 .card {
   display: flex;
   flex-direction: column;
   background-color: var(--black);
-  border-radius: 15px;
+  border-radius: var(--radius-md);
   text-align: left;
   width: 32%;
   min-width: 300px;
 }
 
 .margin {
-  margin: 20px;
+  margin: var(--space-md);
   margin-bottom: 0px;
 }
 
 .heading {
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin-left: var(--space-md);
+  margin-bottom: var(--space-md);
   text-align: left;
   font-family: var(--heading);
-  font-size: 2em;
+  font-size: var(--text-2xl);
   font-weight: 600;
   color: var(--white);
 }
@@ -92,18 +92,18 @@
   display: block;
   font-family: var(--copy);
   text-align: left;
-  font-size: 1.2em;
+  font-size: var(--text-md);
   color: var(--white);
-  margin: 0px 20px 40px 20px;
+  margin: 0 var(--space-md) var(--space-2xl) var(--space-md);
 }
 
 .imageContainer {
   display: flex;
-  gap: 15px;
+  gap: var(--space-sm);
   margin-top: auto;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-bottom: var(--space-md);
+  margin-left: var(--space-md);
+  margin-right: var(--space-md);
 }
 
 @media screen and (max-width: 900px) {
@@ -128,7 +128,7 @@
   }
 
   .topHeading {
-    margin-bottom: 20px;
+    margin-bottom: var(--space-md);
   }
 
   .card {
@@ -140,7 +140,7 @@
 
   .justify {
     text-align: left;
-    font-size: 1.2rem;
+    font-size: var(--text-md);
     max-width: none;
     width: 100%;
   }
@@ -153,6 +153,6 @@
   .row {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: var(--space-md);
   }
 }
